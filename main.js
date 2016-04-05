@@ -1,3 +1,3 @@
 function chgCol() {
-  $("#text").css("col", $("enterColor").val())
+  $("#text").css("col", $("entercolor").val())
 }
