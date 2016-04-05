@@ -37,6 +37,10 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yIBCJWAIlx4" frameborder="0" allowfullscreen></iframe>
 <iframe src="//coub.com/embed/5u5n1?muted=false&autostart=false&originalSize=false&startWithHD=false" allowfullscreen="true" frameborder="0" width="560" height="315"></iframe>
 <h3>JavaScript</h3>
+function chgCol() {
+  $("#text").css("col", $("color").val())
+}
+
 <p id = "text">Я умею менять текст, потому что я красавчик</p>
 <br><input type = "color" id = "col" value = "#D7DF01">
 <br><input type = "button" onclick = "chgCol()" value = "Изменить цвет">
