@@ -10,7 +10,6 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
   </head>
   <body>
-    <script src = "main.js?final></script>
     <section class="page-header">
       <h1 class="project-name">Kp</h1>
       <h2 class="project-tagline"></h2>
@@ -41,6 +40,10 @@
 <p id = "text">Я умею менять текст, потому что я красавчик</p>
 <br><input type = "color" id = "col" value = "#D7DF01">
 <br><input type = "button" onclick = "chgCol()" value = "Изменить цвет">
+function chgCol() {
+  $("#text").css("col", $("color").val())
+}
+
 
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/kerilpalych/kp">Kp</a> is maintained by <a href="https://github.com/kerilpalych">kerilpalych</a>.</span>
