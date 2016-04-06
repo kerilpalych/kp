@@ -27,14 +27,10 @@
         }
     </script>
     <script>function magic(){
-      $(function()
-      {
-         $('.my_button').click(function()
-         {
+      
            $('.my_area').css({width:100}).animate({width:'+=100'});
-         });
-      });
-}
+        
+      }
 </script>
 
     <section class="page-header">
@@ -71,7 +67,7 @@
 <a href="javascript:imgcount();" class="btn">Узнать количество изображений</a>
 <h3>JQuery</h3>
 <span class="my_area"></span><br />
-<a href="javascript:magic();" class="btn">нажми</a>
+<a onclick="magic()" class="btn">Нажми</a>
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/kerilpalych/kp">Kp</a> is maintained by <a href="https://github.com/kerilpalych">kerilpalych</a>.</span>
 <!-- Yandex.Metrika informer -->
