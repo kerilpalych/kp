@@ -14,6 +14,15 @@ a {
   text-decoration: none; }
   a:hover {
     text-decoration: underline; }
+   
+    .my_area
+{
+   display: block;
+   width: 100px;
+   height: 100px;
+   border: #d17662 1px solid;
+   background: #b8523c;
+}
 
 .btn {
   display: inline-block;
