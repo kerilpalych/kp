@@ -65,13 +65,12 @@
 <h3>DOM</h3>
 <a href="javascript:imgcount();" class="btn">Количество изображений</a>
 <h3>JQuery</h3>
+<input type="button" id="butt" value="У меня есть обработчик .click()">
 <script>
-    function set_text(){
-        $('#span3').text('Спасибо!');
-    }
+    $('#butt').click(function(){
+        alert('Решили проверить?');
+    });
 </script>
-<input type="button" value="Нажми!" onclick="set_text();">
-<span id="span3"></span>
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/kerilpalych/kp">Kp</a> is maintained by <a href="https://github.com/kerilpalych">kerilpalych</a>.</span>
 <!-- Yandex.Metrika informer -->
