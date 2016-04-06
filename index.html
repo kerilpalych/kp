@@ -25,6 +25,15 @@
         alert("количество изображений: " + document.images.length);
         }
     </script>
+    <script>
+$(function()
+{
+   $('.my_button').click(function()
+   {
+     $('.my_area').css({width:100}).animate({width:'+=100'});
+   });
+});
+</script>
 
     <section class="page-header">
       <h1 class="project-name">Kp</h1>
@@ -59,6 +68,9 @@
 <h3>DOM</h3>
 <a href="javascript:imgcount();" class="btn">Количество изображений</a>
 <h3>JQuery</h3>
+
+<span class="my_area"></span><br />
+<input type="button" class="my_button" value="Кликни на меня" />
 <style>
     div#log{
     background:#1C93A5;
