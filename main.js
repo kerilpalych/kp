@@ -5,10 +5,3 @@ function newwind() {
 function url() {
     alert(location.href);
 }
-function chgBGclr() {
-    if (document.body.style.background.valueOf() === new String("orange").valueOf()) {
-        document.body.style.background = "";
-    } else {
-        document.body.style.background = "orange";
-    }
-}
